@@ -1,0 +1,455 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container should render correctly 1`] = `
+<div>
+  <section
+    className="bpk-panel bpk-panel--padded panel-background"
+  >
+    <h1
+      className="bpk-text bpk-text--xl"
+    >
+      LHR
+      <svg
+        className="abc-icon__arrow"
+        height="24"
+        style={
+          Object {
+            "height": "1.5rem",
+            "width": "1.5rem",
+          }
+        }
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M14.4 19.5l5.7-5.3c.4-.4.7-.9.8-1.5.1-.3.1-.5.1-.7s0-.4-.1-.6c-.1-.6-.4-1.1-.8-1.5l-5.7-5.3c-.8-.8-2.1-.7-2.8.1-.8.8-.7 2.1.1 2.8l2.7 2.5H5c-1.1 0-2 .9-2 2s.9 2 2 2h9.4l-2.7 2.5c-.5.4-.7 1-.7 1.5s.2 1 .5 1.4c.8.8 2.1.8 2.9.1z"
+        />
+      </svg>
+       
+      EDI
+    </h1>
+    <p
+      className="bpk-text bpk-text--base"
+    >
+      2
+       travellers, 
+      economy
+    </p>
+  </section>
+  <section
+    className="bpk-panel bpk-panel--padded FilterMenuBar"
+  >
+    <span
+      className="bpk-text bpk-text--base FilterMenuBar__filter"
+    >
+      Filter
+    </span>
+    <span
+      className="bpk-text bpk-text--base FilterMenuBar__sort"
+    >
+      Sort
+    </span>
+    <svg
+      className="FilterMenuBar__priceAlert__icon"
+      height="24"
+      style={
+        Object {
+          "height": "1.5rem",
+          "width": "1.5rem",
+        }
+      }
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M18 13.2c.2 2.3 2 1.7 2 4 0 1.7-3.5 3.8-8 3.8s-8-2.1-8-3.8c0-2.3 1.8-1.7 2-4 .5-5.5 1-7.7 4.4-8.9C11.6 3.8 11 3 12 3s.4.8 1.6 1.3c3.5 1.2 3.9 3.4 4.4 8.9zM12 20c3.9 0 6.5-1.7 6.5-2.1 0-.7-2-2-6.5-1.9-4.5 0-6.5 1.4-6.5 2 0 .3 2.6 2 6.5 2zm-2.5-2.8c.7-.1 1.6-.2 2.5-.2s1.8.1 2.5.2c-.6 1.2-1.4 1.8-2.5 1.8s-2-.6-2.5-1.8z"
+      />
+    </svg>
+    <span
+      className="bpk-text bpk-text--base FilterMenuBar__priceAlert"
+    >
+      Price alerts
+    </span>
+  </section>
+  <main
+    className="App__main"
+  >
+    <div
+      className="bpk-card bpk-card--padded Itinerary__main"
+      role="button"
+    >
+      <div
+        className="Itinerary__outbound"
+      >
+        <div>
+          <div
+            className="Leg__img-parent"
+          >
+            <img
+              alt=""
+              src="EZY.png"
+            />
+          </div>
+          <div
+            className="Leg__origin"
+          >
+            <p
+              className="bpk-text bpk-text--base"
+            >
+              22
+            </p>
+            <p
+              className="bpk-text bpk-text--base Leg__origin__place"
+            >
+              LHR
+            </p>
+          </div>
+          <div
+            className="Leg__arrow"
+          >
+            <svg
+              className="Leg__rightArrowIcon"
+              height="24"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.4 19.5l5.7-5.3c.4-.4.7-.9.8-1.5.1-.3.1-.5.1-.7s0-.4-.1-.6c-.1-.6-.4-1.1-.8-1.5l-5.7-5.3c-.8-.8-2.1-.7-2.8.1-.8.8-.7 2.1.1 2.8l2.7 2.5H5c-1.1 0-2 .9-2 2s.9 2 2 2h9.4l-2.7 2.5c-.5.4-.7 1-.7 1.5s.2 1 .5 1.4c.8.8 2.1.8 2.9.1z"
+              />
+            </svg>
+          </div>
+          <div
+            className="Leg__destination"
+          >
+            <p
+              className="bpk-text bpk-text--base"
+            >
+              22
+            </p>
+            <p
+              className="bpk-text bpk-text--base Leg__origin__place"
+            >
+              EDI
+            </p>
+          </div>
+          <div
+            className="Leg__length"
+          >
+            <div
+              className="Leg__duration"
+            >
+              100
+            </div>
+            <div
+              className="Leg__stops"
+            >
+              1 Stop
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="Itinerary__inbound"
+      >
+        <div>
+          <div
+            className="Leg__img-parent"
+          >
+            <img
+              alt=""
+              src="EZY.png"
+            />
+          </div>
+          <div
+            className="Leg__origin"
+          >
+            <p
+              className="bpk-text bpk-text--base"
+            >
+              22
+            </p>
+            <p
+              className="bpk-text bpk-text--base Leg__origin__place"
+            >
+              LHR
+            </p>
+          </div>
+          <div
+            className="Leg__arrow"
+          >
+            <svg
+              className="Leg__rightArrowIcon"
+              height="24"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.4 19.5l5.7-5.3c.4-.4.7-.9.8-1.5.1-.3.1-.5.1-.7s0-.4-.1-.6c-.1-.6-.4-1.1-.8-1.5l-5.7-5.3c-.8-.8-2.1-.7-2.8.1-.8.8-.7 2.1.1 2.8l2.7 2.5H5c-1.1 0-2 .9-2 2s.9 2 2 2h9.4l-2.7 2.5c-.5.4-.7 1-.7 1.5s.2 1 .5 1.4c.8.8 2.1.8 2.9.1z"
+              />
+            </svg>
+          </div>
+          <div
+            className="Leg__destination"
+          >
+            <p
+              className="bpk-text bpk-text--base"
+            >
+              22
+            </p>
+            <p
+              className="bpk-text bpk-text--base Leg__origin__place"
+            >
+              EDI
+            </p>
+          </div>
+          <div
+            className="Leg__length"
+          >
+            <div
+              className="Leg__duration"
+            >
+              100
+            </div>
+            <div
+              className="Leg__stops"
+            >
+              1 Stop
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="Price__footer"
+      >
+        <div
+          className="Price__airline"
+        >
+          <div
+            className="Price__airline__price"
+          >
+            £
+            100
+          </div>
+          <div
+            className="Price__airline__name"
+          >
+            EZY
+          </div>
+        </div>
+        <div
+          className="Price__button"
+        >
+          <button
+            className="bpk-button bpk-button--large Price__airline__select"
+            disabled={false}
+            onClick={null}
+            type="button"
+          >
+            Select
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="bpk-card bpk-card--padded Itinerary__main"
+      role="button"
+    >
+      <div
+        className="Itinerary__outbound"
+      >
+        <div>
+          <div
+            className="Leg__img-parent"
+          >
+            <img
+              alt=""
+              src="BA.png"
+            />
+          </div>
+          <div
+            className="Leg__origin"
+          >
+            <p
+              className="bpk-text bpk-text--base"
+            >
+              22
+            </p>
+            <p
+              className="bpk-text bpk-text--base Leg__origin__place"
+            >
+              LHR
+            </p>
+          </div>
+          <div
+            className="Leg__arrow"
+          >
+            <svg
+              className="Leg__rightArrowIcon"
+              height="24"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.4 19.5l5.7-5.3c.4-.4.7-.9.8-1.5.1-.3.1-.5.1-.7s0-.4-.1-.6c-.1-.6-.4-1.1-.8-1.5l-5.7-5.3c-.8-.8-2.1-.7-2.8.1-.8.8-.7 2.1.1 2.8l2.7 2.5H5c-1.1 0-2 .9-2 2s.9 2 2 2h9.4l-2.7 2.5c-.5.4-.7 1-.7 1.5s.2 1 .5 1.4c.8.8 2.1.8 2.9.1z"
+              />
+            </svg>
+          </div>
+          <div
+            className="Leg__destination"
+          >
+            <p
+              className="bpk-text bpk-text--base"
+            >
+              22
+            </p>
+            <p
+              className="bpk-text bpk-text--base Leg__origin__place"
+            >
+              EDI
+            </p>
+          </div>
+          <div
+            className="Leg__length"
+          >
+            <div
+              className="Leg__duration"
+            >
+              100
+            </div>
+            <div
+              className="Leg__stops"
+            >
+              1 Stop
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="Itinerary__inbound"
+      >
+        <div>
+          <div
+            className="Leg__img-parent"
+          >
+            <img
+              alt=""
+              src="BA.png"
+            />
+          </div>
+          <div
+            className="Leg__origin"
+          >
+            <p
+              className="bpk-text bpk-text--base"
+            >
+              22
+            </p>
+            <p
+              className="bpk-text bpk-text--base Leg__origin__place"
+            >
+              LHR
+            </p>
+          </div>
+          <div
+            className="Leg__arrow"
+          >
+            <svg
+              className="Leg__rightArrowIcon"
+              height="24"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.4 19.5l5.7-5.3c.4-.4.7-.9.8-1.5.1-.3.1-.5.1-.7s0-.4-.1-.6c-.1-.6-.4-1.1-.8-1.5l-5.7-5.3c-.8-.8-2.1-.7-2.8.1-.8.8-.7 2.1.1 2.8l2.7 2.5H5c-1.1 0-2 .9-2 2s.9 2 2 2h9.4l-2.7 2.5c-.5.4-.7 1-.7 1.5s.2 1 .5 1.4c.8.8 2.1.8 2.9.1z"
+              />
+            </svg>
+          </div>
+          <div
+            className="Leg__destination"
+          >
+            <p
+              className="bpk-text bpk-text--base"
+            >
+              22
+            </p>
+            <p
+              className="bpk-text bpk-text--base Leg__origin__place"
+            >
+              EDI
+            </p>
+          </div>
+          <div
+            className="Leg__length"
+          >
+            <div
+              className="Leg__duration"
+            >
+              100
+            </div>
+            <div
+              className="Leg__stops"
+            >
+              1 Stop
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="Price__footer"
+      >
+        <div
+          className="Price__airline"
+        >
+          <div
+            className="Price__airline__price"
+          >
+            £
+            100
+          </div>
+          <div
+            className="Price__airline__name"
+          >
+            BA
+          </div>
+        </div>
+        <div
+          className="Price__button"
+        >
+          <button
+            className="bpk-button bpk-button--large Price__airline__select"
+            disabled={false}
+            onClick={null}
+            type="button"
+          >
+            Select
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+`;

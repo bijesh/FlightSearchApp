@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Price should render correctly 1`] = `
+<div
+  className="Price__footer"
+>
+  <div
+    className="Price__airline"
+  >
+    <div
+      className="Price__airline__price"
+    >
+      £
+      100
+    </div>
+    <div
+      className="Price__airline__name"
+    >
+      BA
+    </div>
+  </div>
+  <div
+    className="Price__button"
+  >
+    <button
+      className="bpk-button bpk-button--large Price__airline__select"
+      disabled={false}
+      onClick={null}
+      type="button"
+    >
+      Select
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,19 @@
+@import '~bpk-mixins';
+.FilterMenuBar {
+    color: $bpk-color-blue-500;
+    &__filter {
+        width: 32%;
+        float: left;
+    }
+    &__sort {
+        width: 38%;
+        float: left;
+    }
+    &__priceAlert {
+        width: 13%;
+        &__icon{
+            height: 1.0rem !important;
+            fill: #00b2d6;
+        }
+    }
+}

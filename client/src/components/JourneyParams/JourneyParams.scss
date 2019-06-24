@@ -1,0 +1,10 @@
+@import '~bpk-mixins';
+
+.panel-background {
+    background-color: #00b2d6;
+    color: #fff;
+}
+.abc-icon__arrow {
+    fill: $bpk-color-white;
+    padding-left: 5px
+  }

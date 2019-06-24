@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render correctly 1`] = `
+<div
+  className="App"
+>
+  <Header />
+  <BpkLargeSpinner
+    alignToButton={false}
+    className="App__spinner"
+    type="dark"
+  />
+</div>
+`;

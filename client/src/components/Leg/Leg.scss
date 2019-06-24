@@ -1,0 +1,60 @@
+@import '~bpk-mixins';
+
+.Leg {
+    &__main {
+        margin: 3%;
+    }
+
+    @media all and (max-width: 480px) {
+        &__img-parent {
+            height: 32px;
+            width: 10%;
+            border-radius: 3px;
+            float: left;
+            margin: 6% 34px 0 0;
+        }
+        &__img-parent img {
+            height: 100%;
+            width: 100%;
+            float: left;
+        }
+        &__origin {
+            width: 20%;
+            float: left;
+            &__place {
+                color: #A6A6A6;
+            }
+        }
+
+        &__destination {
+            width: 18%;
+            align-content: flex-start;
+            float: left;
+        }
+
+        &__arrow {
+            width: 20%;
+            align-content: center;
+            float: left;
+        }
+
+        &__stops {
+            width: 60%;
+            text-align: right;
+            color: green;
+            float: left;
+        }
+        &__duration {
+            width: 60%;
+            text-align: right;
+            color: #A6A6A6;
+            float: left;
+        }
+        &__length {
+            float: right
+        }
+        &__rightArrowIcon {
+            fill: #A6A6A6;
+        }
+    }
+}
